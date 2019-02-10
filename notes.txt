@@ -1,0 +1,84 @@
+Saya ingin reservasi untuk [service] besok hari.
+Saya ingin [service] pada tanggal 20
+Saya ingin reservasi untuk [service]
+Saya ingin [service] besok siang
+Intent : makeAppointment
+Entity : Service, Date, Time, Name
+Date -> hari ini, besok, lusa, senin-minggu, 23 juni 2018, 1-31, januari-desember, jan-des, tahun, hari
+Time -> pagi, siang, sore, malam, subuh, jam, 00-24, petang, 
+
+
+Hai. Saya ingin membuat janji dengan dr. D. Apa saya bisa menemuinya hari ini atau saya harus bertemu lain hari?
+I need to make an appointment to see the doctor.
+Saya ingin berobat besok hari minggu
+Saya ingin periksa
+Saya ingin bertemu dengan dokter
+Saya ada keluhan sakit dan ingin periksa
+Saya ada keluhan sakit dan ingin bertemu dengan dokter
+Intent -> make appointment
+Entity -> Date, Time, Name, doctor's name.
+Info -> Problem(health concern), pain, checkup/ill/renew prescription, have been visited before, 
+
+I need to make an appointment for my husband.
+My child needs to come in for a check-up.
+
+
+
+
+Automated QnA :
+- Make appointment
+- Opening hours
+- Address
+- Payment methods
+- Facility
+- Services
+- Doctors on duty
+- Small talks
+- Medical Records
+
+Automated Task :
+- Handle schedule
+- Notifications before appointment
+- Reminder
+- Patient follow up
+
+Knowledge Based :
+- Automated Medical QnA
+
+Future :
+- Emergency Call
+- Automated conversational over phone
+- Cost estimation
+- Virtual nursing assistant
+
+The Goal (Vision) :
+- Automated work flow and admin task
+- Improving healthcare service
+
+
+
+
+
+==Patient ==
+I need to make an appointment.
+I need to see the doctor.
+When is the doctor free?
+I need to renew my prescription.
+Do you think the doctor could squeeze us in today?
+I need to make an appointment for my husband.
+My child needs to come in for a check-up.
+The doctor wants to see me again in two week's time.
+I need to make an appointment with Dr. Harris.
+
+==Receptionist==
+Receptionist
+What is your chart number?
+What is the appointment regarding?
+Which day/what time is good for you?
+Is January the 3rd okay with you?
+How does four o'clock sound?
+We'll see you then.
+I'm sorry the doctor is not taking new patients.
+We'll call you if there are any cancellations.
+We're running an hour behind schedule.
+Dr Jones is away. You'll be seeing Dr Lindsay.

@@ -1,0 +1,116 @@
+{
+    "intents" : [
+        {
+            "intent" : "greeting",
+            "utterances" : ["Hi", "Apa kabar?", "Halo", "Hello", "Selamat Pagi", "Selamat Siang", "Selamat Sore", "Selamat Malam"],
+            "responses" : ["Halo, terima kasih sudah menghubungi.", "Senang bisa bertemu kembali", "Halo, apa yang bisa kami bantu?"],
+            "entities" : [],
+            "context" : ""
+        },
+        {
+            "intent" : "goodbye",
+            "utterances" : ["Bye", "Selamat Tinggal", "Goodbye"],
+            "responses" : ["Sampai jumpa lagi, terima kasih.", "Semoga harimu menyenangkan", "Bye!"],
+            "entities" : [],
+            "context" : ""
+        },
+        {
+            "intent" : "openingHours",
+            "utterances" : ["Buka", "Buka jam berapa?", "Jam buka?"],
+            "responses" : ["Kami buka jam 08:00 sampai 17:00"],
+            "entities" : [],
+            "context" : ""
+        },
+        {
+            "intent" : "paymentMethod",
+            "utterances" : ["payment", "pembayaran", "Apakah menerima kartu kredit?", "visa", "mastercard", "debit"],
+            "responses" : ["Kami menerima pembayaran cash, debit dan juga kartu kredit"],
+            "entities" : [],
+            "context" : ""
+        },
+        {
+            "intent" : "doctor",
+            "utterances" : ["Siapa dokter yang bertugas hari ini", "Siapa dokter yang melayani periksa"],
+            "responses" : ["Dokter bambang"],
+            "entities" : [],
+            "context" : ""
+        },
+        {
+            "intent" : "insurance",
+            "utterances" : ["Apakah menerima kartu bpjs?", "Apakah bisa memakai bpjs?", "lippo insurance", "asuransi simasnet", "allianz smarthealth", "AXA"],
+            "responses" : ["Kami menerima bpjs"],
+            "entities" : [],
+            "context" : ""
+        },
+        {
+            "intent" : "concern",
+            "utterances" : ["Keluhan saya, merasa pusing dan meriang", "Saya merasa pusing dan lemas"],
+            "responses" : ["Apakah Anda merasakan sakit?"],
+            "entities" : [],
+            "context" : ""
+        },
+        {
+            "intent" : "pain",
+            "utterances" : ["Saya merasakan sakit di pinggang dan perut", "Saya sakit di kepala"],
+            "responses" : ["Sudah berapa lama Anda Sakit?"],
+            "entities" : [],
+            "context" : ""
+        },
+        {
+            "intent" : "numbOfDays",
+            "utterances" : ["Saya sudah sakit sejak kemarin", "Saya sakit sejak tadi pagi"],
+            "responses" : ["Apakah anda sudah meminum obat sebelum nya?"],
+            "entities" : ["Date"],
+            "context" : ""
+        },
+        {
+            "intent" : "medsTaken",
+            "utterances" : ["Saya sudah meminum obat pusing"],
+            "responses" : ["Baik, Semua informasi sudah kami catat"],
+            "entities" : ["Medicine"],
+            "context" : ""
+        },
+        {
+            "intent" : "noMedsTaken",
+            "utterances" : ["Saya belum meminum obat apapun"],
+            "responses" : ["Baik, Semua informasi sudah kami catat"],
+            "entities" : [],
+            "context" : ""
+        },
+        {
+            "intent" : "cancelAppointment",
+            "utterances" : ["Saya ingin membatalkan janji dengan dokter.", "Saya ingin membatalkan periksa dokter"],
+            "responses" : ["Baik, terima kasih."],
+            "entities" : [],
+            "context" : ""
+        },
+        {
+            "intent" : "appointment",
+            "utterances" : ["Saya ingin membuat janji dengan dokter.", "Saya ingin periksa dokter"],
+            "responses" : ["Apakah Anda pernah periksa sebelumnya?"],
+            "entities" : [],
+            "context" : ""
+        },
+        {
+            "intent" : "appointmentWithDate",
+            "utterances" : ["Saya ingin membuat janji dengan dokter hari ini.", "Saya ingin periksa dokter hari ini", "Saya ingin periksa dokter besok", "Saya ingin periksa besok hari", "Saya ingin periksa dokter nanti sore", "Saya ingin periksa dokter nanti siang", "Saya ingin periksa dokter nanti pagi", "Saya ingin periksa dokter nanti malam"],
+            "responses" : ["Apakah Anda pernah periksa sebelumnya?"],
+            "entities" : [],
+            "context" : ""
+        },
+        {
+            "intent" : "appointmentForSomeone",
+            "utterances" : ["Saya ingin membuat janji dengan dokter untuk anak saya", "Saya ingin membuat janji dengan dokter untuk bapak saya", "Saya ingin membuat janji dengan dokter untuk istri saya", "Saya ingin membuat janji dengan dokter untuk suami saya", "Saya ingin membuat janji dengan dokter untuk ibu saya"],
+            "responses" : ["Apakah Anda pernah periksa sebelumnya?"],
+            "entities" : [],
+            "context" : ""
+        },
+        {
+            "intent" : "appointmentWithDoctor",
+            "utterances" : ["Saya ingin membuat janji dengan dokter Bambang.", "Saya ingin membuat janji dengan dr. Bambang"],
+            "responses" : ["Apakah Anda pernah periksa sebelumnya?"],
+            "entities" : [],
+            "context" : ""
+        }
+    ]
+}
